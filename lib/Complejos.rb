@@ -16,9 +16,20 @@ class Complejos
     Complejos.new(@x - other.x, @y - other.y)
   end
 
-  def *(number)
-    Complejos.new(@x * number, @y * number)
-  end
+	def *(other)
+		if other.is_a? Complejos
+		 	Complejos.new(((@x * other.x) - (@y * other.y)) , ((@x * other.y) + (@y * other.x)))
+	  else
+			Complejos.new(@x*other,@y*other)
+	  end
+	end 
+
+	def /(other)
+	 r = (other.x**2 + other.y**2)
+	 x = Float((@x * other.x) + (@y * other.y))/r
+	 y = Float((@y * other.x) - (@x * other.y))/r
+	 Complejos.new(x,y)
+	end
 
   def -@
     Complejos.new(@x * -1, @y * -1)
@@ -29,5 +40,6 @@ class Complejos
   end
 
   def to_s
-    "<x=#{@x}, y=#{@y}>"
+    "(#{@x},#{@y})"
   end
+end
