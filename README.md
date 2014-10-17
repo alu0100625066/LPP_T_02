@@ -1,14 +1,14 @@
 	LPP_T_02
-     ==============
+========================
 
-# Práctica 4
+## Práctica 4
 
 	Miembros del grupo:
     		* Núria Gonzalo Soto
-    		* Simón Fuertes Sanchez (Coordinador)
+    		* Simón Fuertes Sanchez **(Coordinador)**
 
-# Trabajo a realizar
-	* [ ] [Documentación] (doc/)
+## Trabajo a realizar
+	* [] [Documentación] (doc/)
 	  * [] Documentación de las librerías
 	  * [] Documentación de las pruebas unitarias
 	* [] [Librerías] (lib/)
