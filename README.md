@@ -11,8 +11,8 @@
 	* [ ] [Documentación] (docs/)
 	  * [ ] Documentación de las librerías
 	  * [X] Documentación de las pruebas unitarias
-	* [ ] [Librerías] (lib/)
-	  * [ ] Programa Ruby de números complejos
+	* [X] [Librerías] (lib/)
+	  * [X] Programa Ruby de números complejos
 	* [X] [Pruebas unitarias] (tests/)
 	  * [X] Test unitarios de números complejos
 	* [X] [Fichero Rake con tareas a realizar]
